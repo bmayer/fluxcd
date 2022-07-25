@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - ../base/memcached
 patchesStrategicMerge:
-  - podinfo-values.yaml
+  - memcached-values.yaml

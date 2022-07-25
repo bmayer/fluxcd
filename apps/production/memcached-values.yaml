@@ -9,3 +9,5 @@ spec:
       requests:
         memory: 666Mi
         cpu: 666m
+    service:
+      type: LoadBalancer

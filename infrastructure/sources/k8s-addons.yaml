@@ -1,0 +1,7 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: k8s-addons
+spec:
+  interval: 5m
+  url: https://github.com/bmayer/k8s-addons

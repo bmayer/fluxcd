@@ -5,7 +5,7 @@ metadata:
   namespace: memcached
 spec:
   values:
-    nameOverride: memcached-prod
+    nameOverride: -prod
     resources:
       requests:
         memory: 666Mi

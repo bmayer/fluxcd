@@ -1,5 +1,17 @@
 ---
 apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: k8s-addons
+  namespace: nginx
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  timeout: 60s
+  url: https://github.com/bmayer/k8s-addons
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: bitnami

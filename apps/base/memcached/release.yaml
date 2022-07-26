@@ -33,7 +33,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-        namespace: flux-system
+        namespace: memcached
   values:
     image:
       repository: arm64v8/memcached

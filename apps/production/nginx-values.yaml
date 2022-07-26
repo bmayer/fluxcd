@@ -1,8 +1,8 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: memcached
-  namespace: memcached
+  name: nginx
+  namespace: nginx
 spec:
   values:
     image:

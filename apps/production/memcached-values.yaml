@@ -8,7 +8,7 @@ spec:
     nameOverride: production
     resources:
       requests:
-        memory: 666Mi
-        cpu: 666m
+        memory: 128Mi
+        cpu: 66m
     service:
       type: LoadBalancer

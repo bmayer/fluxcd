@@ -25,5 +25,4 @@ spec:
   values:
     image:
       repository: arm64v8/nginx
-      tag: stable
   interval: 5m

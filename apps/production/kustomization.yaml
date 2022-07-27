@@ -8,5 +8,6 @@ patchesStrategicMerge:
   - nginx-values.yaml
 configMapGenerator:
   - name: memcached-config
+    namespace: memcached
     files:
     - memcached.config

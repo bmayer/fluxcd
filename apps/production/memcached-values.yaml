@@ -9,6 +9,6 @@ spec:
     resources:
       requests:
         memory: 128Mi
-        cpu: 66m
+        cpu: 67m
     service:
       type: LoadBalancer

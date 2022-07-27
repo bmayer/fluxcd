@@ -12,3 +12,5 @@ spec:
         cpu: 67m
     service:
       type: LoadBalancer
+    extraEnvVarsCM:
+    - name: memcached-config

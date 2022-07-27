@@ -14,10 +14,10 @@ spec:
       type: LoadBalancer
     extraEnvVarsCM: memcached-config
     extraVolumes:
-    - name: memcached-json
+    - name: memcached.json
       configMap:
         name: memcached-json
     extraVolumeMounts:
-    - name: memcached-json
-      mountPath: /var/memcached.json
+    - name: memcached.json
+      mountPath: /var
       readOnly: true

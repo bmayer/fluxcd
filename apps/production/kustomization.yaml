@@ -11,3 +11,5 @@ configMapGenerator:
     namespace: memcached
     files:
     - memcached.config
+    options:
+      disableNameSuffixHash: true

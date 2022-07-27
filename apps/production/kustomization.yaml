@@ -6,3 +6,7 @@ resources:
 patchesStrategicMerge:
   - memcached-values.yaml
   - nginx-values.yaml
+configMapGenerator:
+  - name: memcached-config
+    files:
+    - memcached.config
